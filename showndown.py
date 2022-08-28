@@ -21,7 +21,7 @@ l2.pack()
 def showndown():
     os.system("shutdown /s /t 1")
 def sleep():
-    time.sleep(15)
+    print("exit")
 def restart():
     os.system("shutdown /r /t 1")
 def restart_time():
